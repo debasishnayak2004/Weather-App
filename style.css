@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #09122C;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    background-color:#00afb5; 
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.humidity,.wind{
+    display: flex;
+}
+.humidity h5{
+    margin-bottom: -2px;
+}
+.wind h5{
+    margin-bottom: -2px;
+}
+#info{
+    display: none;
+}
+
+/* @media (max-width: 550px) and (min-width: 200px){
+   #wind_speed{
+    font-size: 16px
+   }
+  } */
